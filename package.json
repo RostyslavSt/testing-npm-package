@@ -1,0 +1,31 @@
+{
+  "name": "Test_npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "watch": "webpack --watch",
+    "lint": "eslint ./src --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-standard": "^12.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "~6.26.0",
+    "babel-loader": "~7.1.2",
+    "babel-preset-env": "~1.6.0",
+    "clean-webpack-plugin": "~0.1.17",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "project-files-uploader": "^1.0.24",
+    "test_program_for_with_npm": "^1.0.20",
+    "webpack": "^3.6.0"
+  }
+}
